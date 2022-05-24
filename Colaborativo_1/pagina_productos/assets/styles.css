@@ -1,0 +1,44 @@
+.fondo-nav {
+  background-color: #2a6171;
+}
+
+.color-letra {
+  color: white;
+}
+
+.centro {
+  align-items: center;
+  justify-content: center;
+}
+
+.negrita {
+  font-weight: 720;
+}
+
+body {
+  background-color: #d7f7f5;
+}
+
+.color-letra-2 {
+  color: #2a6171;
+}
+
+.centro-1 {
+  text-align: right;
+}
+
+.ancho-1 {
+  width: 110px;
+}
+
+.fondo-1 {
+  background-color: #75cac3;
+}
+
+.letra-seccion {
+  color: #f34573;
+}
+
+.centro-2 {
+  text-align: left;
+}
