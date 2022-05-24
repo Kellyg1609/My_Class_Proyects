@@ -82,148 +82,447 @@
         </div>
     </nav>
 
+    <!-- aqui inicia seccion 1 - perros -->
     <section class="mt-3">
-        <h4 class="letra-seccion m-2">
-            <img
-                  src="assets/img/logo_2.JPG"
-                  class="img"
-                  alt="perro" style="width: 40px"
-                />
-            Perros</h4>
-            <div id="carousel_1" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-indicators">
-                    <button
-                    type="button"
-                    data-bs-target="#carousel_1"
-                    data-bs-slide-to="0"
-                    class="active"
-                    aria-current="true"
-                    aria-label="imagen 1"
-                  ></button>
-                  <button
-                    type="button"
-                    data-bs-target="#carousel_1"
-                    data-bs-slide-to="1"
-                    aria-label="imagen 2"
-                  ></button>
-                </div>
-                <div class="carousel-inner">
-                    <div class="text-center carousel-item active">
-                      <div class="d-flex flex-wrap justify-content-center">
-                          <div class="card fondo-1 text-white m-1" style="width: 180px; ">
-                            <img
-                              class="card-img-top"
-                              src="assets/img/alimento_1.jpg"
-                              alt="alimento_1"
-                            />
-                            <div class="card-body">
-                              <p class="card-text" style="font-size: 12px">
-                                  Max Performance Perros adultos Pollo y Arroz 20 Kg + 2 Kg</p>
-                              <a href="#" class="btn btn-outline">
-                                  <img
-                                     src="assets/img/carrito.png"
-                                     alt="Logo"
-                                     style="width: 45px; Height: 30px;"
-                                  />
-                              </a>
-                            </div>
-                           </div>
-                           <div class="card fondo-1 text-white m-1" style="width: 180px; ">
-                            <img
-                              class="card-img-top"
-                              src="assets/img/alimento_2.jpg"
-                              alt="alimento_1"
-                            />
-                            <div class="card-body">
-                              <p class="card-text" style="font-size: 12px">
-                                Max Professional Line Perros Adultos Light Pollo y Arroz 15 Kg</p>
-                              <a href="#" class="btn btn-outline">
-                                  <img
-                                     src="assets/img/carrito.png"
-                                     alt="Logo"
-                                     style="width: 45px; Height: 30px;"
-                                  />
-                              </a>
-                            </div>
-                           </div>                           
-                           <div class="card fondo-1 text-white m-1" style="width: 180px; ">
-                            <img
-                              class="card-img-top"
-                              src="assets/img/alimento_3.jpg"
-                              alt="alimento_1"
-                            />
-                            <div class="card-body">
-                              <p class="card-text " style="font-size: 12px">
-                                Dog Chow Perros Adultos Razas Medianas y Grandes Vida Sana 22.7 Kg</p>
-                              <a href="#" class="btn btn-outline">
-                                  <img
-                                     src="assets/img/carrito.png"
-                                     alt="Logo"
-                                     style="width: 45px; Height: 30px;"
-                                  />
-                              </a>
-                            </div>
-                           </div>
-                           <div class="card fondo-1 text-white m-1" style="width: 180px; ">
-                            <img
-                              class="card-img-top"
-                              src="assets/img/alimento_4.jpg"
-                              alt="alimento_1"
-                            />
-                            <div class="card-body">
-                              <p class="card-text" style="font-size: 12px">
-                                Max Premium Especial Perros Adultos Carne 15 Kg ....</p>
-                                
-                              <a href="#" class="btn btn-outline">
-                                  <img
-                                     src="assets/img/carrito.png"
-                                     alt="Logo"
-                                     style="width: 45px; Height: 30px;"
-                                  />
-                              </a>
-                            </div>
-                           </div>
-                           <div class="card fondo-1 text-white m-1" style="width: 180px; ">
-                            <img
-                              class="card-img-top"
-                              src="assets/img/alimento_5.jpg"
-                              alt="alimento_1"
-                            />
-                            <div class="card-body">
-                              <p class="card-text" style="font-size: 12px">
-                                Hills Prescription Diet Perros Liver Care l/d 17.6 Lb</p>
-                              <a href="#" class="btn btn-outline">
-                                  <img
-                                     src="assets/img/carrito.png"
-                                     alt="Logo"
-                                     style="width: 45px; Height: 30px;"
-                                  />
-                              </a>
-                            </div>
-                           </div>
-                           <div class="card fondo-1 text-white m-1" style="width: 180px; ">
-                            <img
-                              class="card-img-top"
-                              src="assets/img/alimento_6.jpg"
-                              alt="alimento_1"
-                            />
-                            <div class="card-body">
-                              <p class="card-text" style="font-size: 12px">
-                                Dog Chow Perros Senior Vida Sana 17 Kg ..................................</p>
-                              <a href="#" class="btn btn-outline">
-                                  <img
-                                     src="assets/img/carrito.png"
-                                     alt="Logo"
-                                     style="width: 45px; Height: 30px;"
-                                  />
-                              </a>
-                            </div>
-                           </div>
-                        </div>
-                    </div>
-                </div>
+      <h4 class="color-letra-2 m-2">
+        <img src="assets/img/logo_2.JPG" class="img" alt="perro" style="width: 40px"/>Perros</h4>
+
+    <!-- aqui inicia el carousel -->
+    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="10000">
+        <!-- aqui inicia el div de d-flex -->
+        <div class="d-flex flex-wrap justify-content-center">
+          <!-- aqui inicia el div de tarjeta -->
+          <div class="card fondo-1 color-letra-2 m-1" style="width: 180px; ">
+            <img class="card-img-top" src="assets/img/alimento_1.jpg" alt="alimento_1" />
+            <div class="card-body">
+              <p class="card-text" style="font-size: 12px">Max Performance Perros adultos Pollo y Arroz 20 Kg + 2 Kg</p>
+              <a href="#" class="btn btn-outline">
+                  <img src="assets/img/carrito.png" alt="Logo" style="width: 45px; Height: 30px;"/>
+              </a>
             </div>
+           </div>   <!-- aqui termina el div de tarjeta 1 -->
+           <!-- aqui inicia el div de tarjeta 2-->
+           <div class="card fondo-1 color-letra-2 m-1" style="width: 180px; ">
+            <img class="card-img-top" src="assets/img/alimento_2.jpg" alt="alimento_1"/>
+            <div class="card-body">
+              <p class="card-text" style="font-size: 12px">Max Professional Line Perros Adultos Light Pollo y Arroz 15 Kg</p>
+              <a href="#" class="btn btn-outline">
+                  <img src="assets/img/carrito.png" alt="Logo" style="width: 45px; Height: 30px;"/>
+              </a>
+            </div>
+           </div>  <!-- aqui termina el div de tarjeta 2 -->      
+           <!-- aqui inicia el div de tarjeta 3-->                  
+           <div class="card fondo-1 color-letra-2 m-1" style="width: 180px; ">
+            <img class="card-img-top" src="assets/img/alimento_3.jpg" alt="alimento_3"/>
+            <div class="card-body">
+              <p class="card-text " style="font-size: 12px">Dog Chow Perros Adultos Razas Medianas y Grandes Vida Sana 22.7 Kg</p>
+              <a href="#" class="btn btn-outline">
+                  <img src="assets/img/carrito.png" alt="Logo" style="width: 45px; Height: 30px;"/>
+              </a>
+            </div>
+           </div>  <!-- aqui termina el div de tarjeta 2 --> 
+           <!-- aqui inicia el div de tarjeta 4--> 
+           <div class="card fondo-1 color-letra-2 m-1" style="width: 180px; ">
+            <img class="card-img-top" src="assets/img/alimento_4.jpg" alt="alimento_4"/>
+            <div class="card-body">
+              <p class="card-text" style="font-size: 12px">Hills Prescription Diet Perros Liver Care l/d 17.6 Lb</p>
+              <a href="#" class="btn btn-outline">
+                  <img src="assets/img/carrito.png" alt="Logo" style="width: 45px; Height: 30px;"/>
+              </a>
+            </div>
+           </div> <!-- aqui termina el div de tarjeta 4 --> 
+           <!-- aqui inicia el div de tarjeta 5--> 
+           <div class="card fondo-1 color-letra-2 m-1" style="width: 180px; ">
+            <img class="card-img-top" src="assets/img/alimento_5.jpg" alt="alimento_5"/>
+            <div class="card-body">
+              <p class="card-text" style="font-size: 12px">Dog Chow Perros Senior Vida Sana 17 Kg</p>
+              <a href="#" class="btn btn-outline">
+                  <img src="assets/img/carrito.png" alt="Logo" style="width: 45px; Height: 30px;"/>
+              </a>
+            </div>
+           </div>  <!-- aqui termina el div de tarjeta 5 -->
+           <!-- aqui inicia el div de tarjeta 6--> 
+           <div class="card fondo-1 color-letra-2 m-1" style="width: 180px; ">
+            <img class="card-img-top" src="assets/img/alimento_6.jpg" alt="alimento_1"/>
+            <div class="card-body">
+              <p class="card-text" style="font-size: 12px">Agility Gold Perros Adultos Razas Grandes Sin Granos 15 Kg</p>
+              <a href="#" class="btn btn-outline">
+                  <img src="assets/img/carrito.png" alt="Logo" style="width: 45px; Height: 30px;"/>
+              </a>
+            </div>
+           </div> <!-- aqui termina el div de tarjeta 6 -->
+          </div>  <!-- aqui termina el div d-flex -->
+  
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+        <!-- aqui inicia el div de d-flex -->
+        <div class="d-flex flex-wrap justify-content-center">
+          <!-- aqui inicia el div de tarjeta -->
+          <div class="card fondo-1 color-letra-2 m-1" style="width: 180px; ">
+            <img class="card-img-top" src="assets/img/alimento_7.jpg" alt="alimento_7" />
+            <div class="card-body">
+              <p class="card-text" style="font-size: 12px">Chunky Perros Adultos Cordero, Arroz y Salmón 12 Kg</p>
+              <a href="#" class="btn btn-outline">
+                  <img src="assets/img/carrito.png" alt="Logo" style="width: 45px; Height: 30px;"/>
+              </a>
+            </div>
+           </div>   <!-- aqui termina el div de tarjeta 1 -->
+           <!-- aqui inicia el div de tarjeta 2-->
+           <div class="card fondo-1 color-letra-2 m-1" style="width: 180px; ">
+            <img class="card-img-top" src="assets/img/alimento_8.jpg" alt="alimento_8"/>
+            <div class="card-body">
+              <p class="card-text" style="font-size: 12px">Max Professional Line Perros Senior Pollo y Arroz 15 Kg</p>
+              <a href="#" class="btn btn-outline">
+                  <img src="assets/img/carrito.png" alt="Logo" style="width: 45px; Height: 30px;"/>
+              </a>
+            </div>
+           </div>  <!-- aqui termina el div de tarjeta 2 -->      
+           <!-- aqui inicia el div de tarjeta 3-->                  
+           <div class="card fondo-1 color-letra-2 m-1" style="width: 180px; ">
+            <img class="card-img-top" src="assets/img/alimento_9.jpg" alt="alimento_9"/>
+            <div class="card-body">
+              <p class="card-text " style="font-size: 12px">Dog Chow Perros Adultos Sano y en Forma Light 17 Kg</p>
+              <a href="#" class="btn btn-outline">
+                  <img src="assets/img/carrito.png" alt="Logo" style="width: 45px; Height: 30px;"/>
+              </a>
+            </div>
+           </div>  <!-- aqui termina el div de tarjeta 2 --> 
+           <!-- aqui inicia el div de tarjeta 4--> 
+           <div class="card fondo-1 color-letra-2 m-1" style="width: 180px; ">
+            <img class="card-img-top" src="assets/img/alimento_10.jpg" alt="alimento_10"/>
+            <div class="card-body">
+              <p class="card-text" style="font-size: 12px">Hills Prescription Diet Perros Weight Reduction r/d 27.5 Lb</p>
+              <a href="#" class="btn btn-outline">
+                  <img src="assets/img/carrito.png" alt="Logo" style="width: 45px; Height: 30px;"/>
+              </a>
+            </div>
+           </div> <!-- aqui termina el div de tarjeta 4 --> 
+           <!-- aqui inicia el div de tarjeta 5--> 
+           <div class="card fondo-1 color-letra-2 m-1" style="width: 180px; ">
+            <img class="card-img-top" src="assets/img/alimento_11.jpg" alt="alimento_11"/>
+            <div class="card-body">
+              <p class="card-text" style="font-size: 12px">Hills Prescription Diet Perros Kidney Care k/d 17.6 Lb</p>
+              <a href="#" class="btn btn-outline">
+                  <img src="assets/img/carrito.png" alt="Logo" style="width: 45px; Height: 30px;"/>
+              </a>
+            </div>
+           </div>  <!-- aqui termina el div de tarjeta 5 -->
+           <!-- aqui inicia el div de tarjeta 6--> 
+           <div class="card fondo-1 color-letra-2 m-1" style="width: 180px; ">
+            <img class="card-img-top" src="assets/img/alimento_12.jpg" alt="alimento_12"/>
+            <div class="card-body">
+              <p class="card-text" style="font-size: 12px">Agility Gold Grandes Adultos Piel 8 Kg</p>
+              <a href="#" class="btn btn-outline">
+                  <img src="assets/img/carrito.png" alt="Logo" style="width: 45px; Height: 30px;"/>
+              </a>
+            </div>
+           </div> <!-- aqui termina el div de tarjeta 6 -->
+          </div>  <!-- aqui termina el div d-flex -->
+        </div>
+        <div class="carousel-item">
+        <!-- aqui inicia el div de d-flex -->
+        <div class="d-flex flex-wrap justify-content-center">
+          <!-- aqui inicia el div de tarjeta -->
+          <div class="card fondo-1 color-letra-2 m-1" style="width: 180px; ">
+            <img class="card-img-top" src="assets/img/alimento_13.jpg" alt="alimento_13" />
+            <div class="card-body">
+              <p class="card-text" style="font-size: 12px">Nutra-Nuggets Perros Adultos Pollo y Arroz 15 Kg</p>
+              <a href="#" class="btn btn-outline">
+                  <img src="assets/img/carrito.png" alt="Logo" style="width: 45px; Height: 30px;"/>
+              </a>
+            </div>
+           </div>   <!-- aqui termina el div de tarjeta 1 -->
+           <!-- aqui inicia el div de tarjeta 2-->
+           <div class="card fondo-1 color-letra-2 m-1" style="width: 180px; ">
+            <img class="card-img-top" src="assets/img/alimento_14.jpg" alt="alimento_14"/>
+            <div class="card-body">
+              <p class="card-text" style="font-size: 12px">Hills Canine adult small bite 15 Lb</p>
+              <a href="#" class="btn btn-outline">
+                  <img src="assets/img/carrito.png" alt="Logo" style="width: 45px; Height: 30px;"/>
+              </a>
+            </div>
+           </div>  <!-- aqui termina el div de tarjeta 2 -->      
+           <!-- aqui inicia el div de tarjeta 3-->                  
+           <div class="card fondo-1 color-letra-2 m-1" style="width: 180px; ">
+            <img class="card-img-top" src="assets/img/alimento_15.jpg" alt="alimento_15"/>
+            <div class="card-body">
+              <p class="card-text " style="font-size: 12px">Agility Gold Perros Cachorros Razas Grandes Sin Granos 15 Kg</p>
+              <a href="#" class="btn btn-outline">
+                  <img src="assets/img/carrito.png" alt="Logo" style="width: 45px; Height: 30px;"/>
+              </a>
+            </div>
+           </div>  <!-- aqui termina el div de tarjeta 2 --> 
+           <!-- aqui inicia el div de tarjeta 4--> 
+           <div class="card fondo-1 color-letra-2 m-1" style="width: 180px; ">
+            <img class="card-img-top" src="assets/img/alimento_16.jpg" alt="alimento_16"/>
+            <div class="card-body">
+              <p class="card-text" style="font-size: 12px">Hills Canine adulto ob 35 Lb</p>
+              <a href="#" class="btn btn-outline">
+                  <img src="assets/img/carrito.png" alt="Logo" style="width: 45px; Height: 30px;"/>
+              </a>
+            </div>
+           </div> <!-- aqui termina el div de tarjeta 4 --> 
+           <!-- aqui inicia el div de tarjeta 5--> 
+           <div class="card fondo-1 color-letra-2 m-1" style="width: 180px; ">
+            <img class="card-img-top" src="assets/img/alimento_5.jpg" alt="alimento_17"/>
+            <div class="card-body">
+              <p class="card-text" style="font-size: 12px">Monello dog tradicional 25 KG</p>
+              <a href="#" class="btn btn-outline">
+                  <img src="assets/img/carrito.png" alt="Logo" style="width: 45px; Height: 30px;"/>
+              </a>
+            </div>
+           </div>  <!-- aqui termina el div de tarjeta 5 -->
+           <!-- aqui inicia el div de tarjeta 6--> 
+           <div class="card fondo-1 color-letra-2 m-1" style="width: 180px; ">
+            <img class="card-img-top" src="assets/img/alimento_18.jpg" alt="alimento_18"/>
+            <div class="card-body">
+              <p class="card-text" style="font-size: 12px">Hills Science Diet Perros Adultos de Razas Pequeñas Cordero y Arroz 15.5 Lb</p>
+              <a href="#" class="btn btn-outline">
+                  <img src="assets/img/carrito.png" alt="Logo" style="width: 45px; Height: 30px;"/>
+              </a>
+            </div>
+           </div> <!-- aqui termina el div de tarjeta 6 -->
+          </div>  <!-- aqui termina el div d-flex -->
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>   <!-- aqui termina el carousel-->
     </section>
+
+    <!-- aqui inicia seccion 2 - gatos -->
+    <section class="mt-3">
+      <h4 class="color-letra-2 m-2">
+        <img src="assets/img/logo_2.JPG" class="img" alt="perro" style="width: 40px"/>Gatos</h4>
+
+    <!-- aqui inicia el carousel -->
+    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="10000">
+        <!-- aqui inicia el div de d-flex -->
+        <div class="d-flex flex-wrap justify-content-center">
+          <!-- aqui inicia el div de tarjeta -->
+          <div class="card fondo-1 color-letra-2 m-1" style="width: 180px; ">
+            <img class="card-img-top" src="assets/img/alimento_19.jpg" alt="alimento_19" />
+            <div class="card-body">
+              <p class="card-text" style="font-size: 12px">Agility Gold Gatos Sin Granos 7 Kg</p>
+              <a href="#" class="btn btn-outline">
+                  <img src="assets/img/carrito.png" alt="Logo" style="width: 45px; Height: 30px;"/>
+              </a>
+            </div>
+           </div>   <!-- aqui termina el div de tarjeta 19 -->
+           <!-- aqui inicia el div de tarjeta 20-->
+           <div class="card fondo-1 color-letra-2 m-1" style="width: 180px; ">
+            <img class="card-img-top" src="assets/img/alimento_20.jpg" alt="alimento_20"/>
+            <div class="card-body">
+              <p class="card-text" style="font-size: 12px">Equilíbrio Concentrado Gatos Adultos 8.25 Kg</p>
+              <a href="#" class="btn btn-outline">
+                  <img src="assets/img/carrito.png" alt="Logo" style="width: 45px; Height: 30px;"/>
+              </a>
+            </div>
+           </div>  <!-- aqui termina el div de tarjeta 20 -->      
+           <!-- aqui inicia el div de tarjeta 21-->                  
+           <div class="card fondo-1 color-letra-2 m-1" style="width: 180px; ">
+            <img class="card-img-top" src="assets/img/alimento_21.jpg" alt="alimento_21"/>
+            <div class="card-body">
+              <p class="card-text " style="font-size: 12px">Max Cat gatos adultos pollo y arroz 3 Kg</p>
+              <a href="#" class="btn btn-outline">
+                  <img src="assets/img/carrito.png" alt="Logo" style="width: 45px; Height: 30px;"/>
+              </a>
+            </div>
+           </div>  <!-- aqui termina el div de tarjeta 21 --> 
+           <!-- aqui inicia el div de tarjeta 22--> 
+           <div class="card fondo-1 color-letra-2 m-1" style="width: 180px; ">
+            <img class="card-img-top" src="assets/img/alimento_22.jpg" alt="alimento_22"/>
+            <div class="card-body">
+              <p class="card-text" style="font-size: 12px">Nutra-Nuggets Fórmula de Mantenimiento para Gatos 7.5 Kg</p>
+              <a href="#" class="btn btn-outline">
+                  <img src="assets/img/carrito.png" alt="Logo" style="width: 45px; Height: 30px;"/>
+              </a>
+            </div>
+           </div> <!-- aqui termina el div de tarjeta 4 --> 
+           <!-- aqui inicia el div de tarjeta 5--> 
+           <div class="card fondo-1 color-letra-2 m-1" style="width: 180px; ">
+            <img class="card-img-top" src="assets/img/alimento_5.jpg" alt="alimento_5"/>
+            <div class="card-body">
+              <p class="card-text" style="font-size: 12px">Dog Chow Perros Senior Vida Sana 17 Kg</p>
+              <a href="#" class="btn btn-outline">
+                  <img src="assets/img/carrito.png" alt="Logo" style="width: 45px; Height: 30px;"/>
+              </a>
+            </div>
+           </div>  <!-- aqui termina el div de tarjeta 5 -->
+           <!-- aqui inicia el div de tarjeta 6--> 
+           <div class="card fondo-1 color-letra-2 m-1" style="width: 180px; ">
+            <img class="card-img-top" src="assets/img/alimento_6.jpg" alt="alimento_1"/>
+            <div class="card-body">
+              <p class="card-text" style="font-size: 12px">Agility Gold Perros Adultos Razas Grandes Sin Granos 15 Kg</p>
+              <a href="#" class="btn btn-outline">
+                  <img src="assets/img/carrito.png" alt="Logo" style="width: 45px; Height: 30px;"/>
+              </a>
+            </div>
+           </div> <!-- aqui termina el div de tarjeta 6 -->
+          </div>  <!-- aqui termina el div d-flex -->
+  
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+        <!-- aqui inicia el div de d-flex -->
+        <div class="d-flex flex-wrap justify-content-center">
+          <!-- aqui inicia el div de tarjeta -->
+          <div class="card fondo-1 color-letra-2 m-1" style="width: 180px; ">
+            <img class="card-img-top" src="assets/img/alimento_7.jpg" alt="alimento_7" />
+            <div class="card-body">
+              <p class="card-text" style="font-size: 12px">Chunky Perros Adultos Cordero, Arroz y Salmón 12 Kg</p>
+              <a href="#" class="btn btn-outline">
+                  <img src="assets/img/carrito.png" alt="Logo" style="width: 45px; Height: 30px;"/>
+              </a>
+            </div>
+           </div>   <!-- aqui termina el div de tarjeta 1 -->
+           <!-- aqui inicia el div de tarjeta 2-->
+           <div class="card fondo-1 color-letra-2 m-1" style="width: 180px; ">
+            <img class="card-img-top" src="assets/img/alimento_8.jpg" alt="alimento_8"/>
+            <div class="card-body">
+              <p class="card-text" style="font-size: 12px">Max Professional Line Perros Senior Pollo y Arroz 15 Kg</p>
+              <a href="#" class="btn btn-outline">
+                  <img src="assets/img/carrito.png" alt="Logo" style="width: 45px; Height: 30px;"/>
+              </a>
+            </div>
+           </div>  <!-- aqui termina el div de tarjeta 2 -->      
+           <!-- aqui inicia el div de tarjeta 3-->                  
+           <div class="card fondo-1 color-letra-2 m-1" style="width: 180px; ">
+            <img class="card-img-top" src="assets/img/alimento_9.jpg" alt="alimento_9"/>
+            <div class="card-body">
+              <p class="card-text " style="font-size: 12px">Dog Chow Perros Adultos Sano y en Forma Light 17 Kg</p>
+              <a href="#" class="btn btn-outline">
+                  <img src="assets/img/carrito.png" alt="Logo" style="width: 45px; Height: 30px;"/>
+              </a>
+            </div>
+           </div>  <!-- aqui termina el div de tarjeta 2 --> 
+           <!-- aqui inicia el div de tarjeta 4--> 
+           <div class="card fondo-1 color-letra-2 m-1" style="width: 180px; ">
+            <img class="card-img-top" src="assets/img/alimento_10.jpg" alt="alimento_10"/>
+            <div class="card-body">
+              <p class="card-text" style="font-size: 12px">Hills Prescription Diet Perros Weight Reduction r/d 27.5 Lb</p>
+              <a href="#" class="btn btn-outline">
+                  <img src="assets/img/carrito.png" alt="Logo" style="width: 45px; Height: 30px;"/>
+              </a>
+            </div>
+           </div> <!-- aqui termina el div de tarjeta 4 --> 
+           <!-- aqui inicia el div de tarjeta 5--> 
+           <div class="card fondo-1 color-letra-2 m-1" style="width: 180px; ">
+            <img class="card-img-top" src="assets/img/alimento_11.jpg" alt="alimento_11"/>
+            <div class="card-body">
+              <p class="card-text" style="font-size: 12px">Hills Prescription Diet Perros Kidney Care k/d 17.6 Lb</p>
+              <a href="#" class="btn btn-outline">
+                  <img src="assets/img/carrito.png" alt="Logo" style="width: 45px; Height: 30px;"/>
+              </a>
+            </div>
+           </div>  <!-- aqui termina el div de tarjeta 5 -->
+           <!-- aqui inicia el div de tarjeta 6--> 
+           <div class="card fondo-1 color-letra-2 m-1" style="width: 180px; ">
+            <img class="card-img-top" src="assets/img/alimento_12.jpg" alt="alimento_12"/>
+            <div class="card-body">
+              <p class="card-text" style="font-size: 12px">Agility Gold Grandes Adultos Piel 8 Kg</p>
+              <a href="#" class="btn btn-outline">
+                  <img src="assets/img/carrito.png" alt="Logo" style="width: 45px; Height: 30px;"/>
+              </a>
+            </div>
+           </div> <!-- aqui termina el div de tarjeta 6 -->
+          </div>  <!-- aqui termina el div d-flex -->
+        </div>
+        <div class="carousel-item">
+        <!-- aqui inicia el div de d-flex -->
+        <div class="d-flex flex-wrap justify-content-center">
+          <!-- aqui inicia el div de tarjeta -->
+          <div class="card fondo-1 color-letra-2 m-1" style="width: 180px; ">
+            <img class="card-img-top" src="assets/img/alimento_13.jpg" alt="alimento_13" />
+            <div class="card-body">
+              <p class="card-text" style="font-size: 12px">Nutra-Nuggets Perros Adultos Pollo y Arroz 15 Kg</p>
+              <a href="#" class="btn btn-outline">
+                  <img src="assets/img/carrito.png" alt="Logo" style="width: 45px; Height: 30px;"/>
+              </a>
+            </div>
+           </div>   <!-- aqui termina el div de tarjeta 1 -->
+           <!-- aqui inicia el div de tarjeta 2-->
+           <div class="card fondo-1 color-letra-2 m-1" style="width: 180px; ">
+            <img class="card-img-top" src="assets/img/alimento_14.jpg" alt="alimento_14"/>
+            <div class="card-body">
+              <p class="card-text" style="font-size: 12px">Hills Canine adult small bite 15 Lb</p>
+              <a href="#" class="btn btn-outline">
+                  <img src="assets/img/carrito.png" alt="Logo" style="width: 45px; Height: 30px;"/>
+              </a>
+            </div>
+           </div>  <!-- aqui termina el div de tarjeta 2 -->      
+           <!-- aqui inicia el div de tarjeta 3-->                  
+           <div class="card fondo-1 color-letra-2 m-1" style="width: 180px; ">
+            <img class="card-img-top" src="assets/img/alimento_15.jpg" alt="alimento_15"/>
+            <div class="card-body">
+              <p class="card-text " style="font-size: 12px">Agility Gold Perros Cachorros Razas Grandes Sin Granos 15 Kg</p>
+              <a href="#" class="btn btn-outline">
+                  <img src="assets/img/carrito.png" alt="Logo" style="width: 45px; Height: 30px;"/>
+              </a>
+            </div>
+           </div>  <!-- aqui termina el div de tarjeta 2 --> 
+           <!-- aqui inicia el div de tarjeta 4--> 
+           <div class="card fondo-1 color-letra-2 m-1" style="width: 180px; ">
+            <img class="card-img-top" src="assets/img/alimento_16.jpg" alt="alimento_16"/>
+            <div class="card-body">
+              <p class="card-text" style="font-size: 12px">Hills Canine adulto ob 35 Lb</p>
+              <a href="#" class="btn btn-outline">
+                  <img src="assets/img/carrito.png" alt="Logo" style="width: 45px; Height: 30px;"/>
+              </a>
+            </div>
+           </div> <!-- aqui termina el div de tarjeta 4 --> 
+           <!-- aqui inicia el div de tarjeta 5--> 
+           <div class="card fondo-1 color-letra-2 m-1" style="width: 180px; ">
+            <img class="card-img-top" src="assets/img/alimento_5.jpg" alt="alimento_17"/>
+            <div class="card-body">
+              <p class="card-text" style="font-size: 12px">Monello dog tradicional 25 KG</p>
+              <a href="#" class="btn btn-outline">
+                  <img src="assets/img/carrito.png" alt="Logo" style="width: 45px; Height: 30px;"/>
+              </a>
+            </div>
+           </div>  <!-- aqui termina el div de tarjeta 5 -->
+           <!-- aqui inicia el div de tarjeta 6--> 
+           <div class="card fondo-1 color-letra-2 m-1" style="width: 180px; ">
+            <img class="card-img-top" src="assets/img/alimento_18.jpg" alt="alimento_18"/>
+            <div class="card-body">
+              <p class="card-text" style="font-size: 12px">Hills Science Diet Perros Adultos de Razas Pequeñas Cordero y Arroz 15.5 Lb</p>
+              <a href="#" class="btn btn-outline">
+                  <img src="assets/img/carrito.png" alt="Logo" style="width: 45px; Height: 30px;"/>
+              </a>
+            </div>
+           </div> <!-- aqui termina el div de tarjeta 6 -->
+          </div>  <!-- aqui termina el div d-flex -->
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>   <!-- aqui termina el carousel-->
+    </section>    
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
